@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github.com/hiddeneyes99/cookpish/blob/main/twh.png" alt="CookPhish Screenshot"/>
+  <img width="100%" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEewMSMzXt5M1EICO8xvveC7-1Qr9gg2SOfHkfUX_7AeNpy_4FjM80JYrniMz47fukQNsvXzBmvU9kGuNAuy_DMGnnZ4i_AL3zzqJZhLpVaWDeTpoBUcymj675l59RXEqi0HKfkK0tvkyQbjLpA7vAugMW61dwZuf0dYMOVplqQ3pns5xcwmkHck49B290/s1280/twh.png" alt="CookPhish Screenshot"/>
 </p>
 
 ---
