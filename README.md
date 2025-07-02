@@ -38,7 +38,7 @@
 ## 🧪 Tested Platforms
 
 - Termux on Android
-- Kali Linux (SOON)
+- Kali Linux
 - Debian-based Linux distros
 
 ---
