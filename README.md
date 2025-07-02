@@ -95,7 +95,7 @@ chmod +x CookPhish
 ## 📸 Screenshots
 
 <p align="center">
-  <img width="60%" src="https://raw.githubusercontent.com/technicalwhitehat-yt/CookPhish/main/assets/screenshot.png"/>
+  <img width="100%" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlFtZwaTVfEPsleUX9c6KgDagIkKpDiTegF3ed6ZHsTPsqPUGUJnAL3EHdHkn_9rw1cfvdKxUAnelCtmWnSKD5TjdlAcinEFXFwNZOC637KGkSABhomCrDttbBHmnaE0rak8bTces5W6f2jDCg2hckbSvJcQnu2Kt5EljIzHEeEtidKbErKW19eUKFKur1/s1920/Untitled%20design.png"/>
 </p>
 
 ---
