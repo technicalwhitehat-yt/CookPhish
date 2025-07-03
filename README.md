@@ -97,7 +97,7 @@ chmod +x CookPhish
 If you're testing **CookPhish** on Instagram using a mobile device, you'll need a browser that supports extensions like **Cookies Editor**.
 
 👉 **Download the recommended browser app (.apk)** that supports cookie injection and browser extensions:  
-[📥 Click to Download (.apk)](https://drive.google.com/file/d/1fOCiLEs-2aPlCQSCWVaXnIC-vYc79Y-7/view?usp=drivesdk)
+[📥 Click to Download (.apk)](https://play.google.com/store/apps/details?id=com.lemurbrowser.exts)
 
 
 ## 🔧 How to Use (With Cookies Editor Extension)
