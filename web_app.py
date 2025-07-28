@@ -19,35 +19,34 @@ params = None
 
 @app.route('/')
 def index():
-    global user_agent,params
+    global user_agent, params
     user_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     user_agent = request.headers.get('User-Agent')
-
-    time_zone = time.tzname[0]
+    
+    # Force Indian timezone (IST)
+    indian_tz = pytz.timezone('Asia/Kolkata')
     utc_now = datetime.datetime.now(datetime.timezone.utc)
+    
     try:
-        if time_zone.startswith(("+", "-")) or time_zone.isdigit():
-            offset_hours = int(time_zone.replace("+", "").replace("-", ""))
-            user_tz = pytz.FixedOffset(offset_hours * 60)  
-        else:
-            user_tz = pytz.timezone(time_zone)
-        user_now = utc_now.astimezone(user_tz)
-        visit_time = user_now.strftime("%Y-%m-%d %H:%M:%S")
-    except pytz.UnknownTimeZoneError:
-        print("Geçersiz saat dilimi:", time_zone)
-        user_tz = pytz.utc 
-        visit_time = utc_now.strftime("%Y-%m-%d %H:%M:%S")
+        # Convert to Indian timezone
+        indian_time = utc_now.astimezone(indian_tz)
+        # 12-hour format with AM/PM
+        visit_time = indian_time.strftime("%Y-%m-%d %I:%M:%S %p")
+    except Exception as e:
+        print("Timezone error:", e)
+        # Fallback to IST
+        indian_time = utc_now.astimezone(indian_tz)
+        visit_time = indian_time.strftime("%Y-%m-%d %I:%M:%S %p")
     
     if user_agent is not None:
         first_art(visit_time, user_ip.strip(), user_agent)
         with open('output/ip_agent.log', 'a') as f:
             f.write(f"\n\n\n\nEnter website in: {visit_time} \nIP: {user_ip}\nUser-Agent: {user_agent}\n")
+    
     params = {
-                "display_type": "none"
+        "display_type": "none"
     }
-    return render_template('index.html',params=params)
-
-
+    return render_template('index.html', params=params)
 
 
 @app.route('/submit', methods=['POST'])
