@@ -54,6 +54,30 @@
 | Android/Linux Support   | Limited           | ✅ Termux + Linux     |
 
 ---
+## 🛠️ Installation
+
+## 📱 Termux (Android)
+```
+pkg update && pkg upgrade -y
+pkg update && pkg upgrade -y
+pkg install git
+git clone https://github.com/technicalwhitehat-yt/CookPhish.git
+cd CookPhish
+bash CookPhish
+```
+## 💻 Kali Linux / Debian-based Linux
+```
+sudo apt-get update && upgrade -y
+apt-get install git
+git clone https://github.com/technicalwhitehat-yt/CookPhish.git
+cd CookPhish
+sudo bash CookPhish
+```
+
+
+> 🔁 **Note:** You must clone the repo via Git to enable auto-update functionality.
+
+---
 
 ## 📦 Requirements
 
@@ -61,20 +85,10 @@
 pip install -r requirements.txt
 ````
 
----
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/technicalwhitehat-yt/CookPhish.git
-cd CookPhish
-chmod +x CookPhish
-./CookPhish
-```
-
-> 🔁 **Note:** You must clone the repo via Git to enable auto-update functionality.
+> ⚠️ **IMPORTANT:** If you start facing any errors while running Cookphish, then run this command. This will solve the problem. If it doesn’t, contact us. 📩
 
 ---
+
 
 ## 🚀 Usage
 
@@ -108,9 +122,6 @@ If you're testing **CookPhish** on Instagram using a mobile device, you'll need 
 4. Launch the phishing page hosted by CookPhish (e.g. via `cloudflared` or `tunnelmole`).
 5. Open **Cookies Editor** and find important cookies like:
    - `sessionid`
-   - `csrftoken`
-   - `mid`
-   - `ds_user_id`
 6. Modify or inject the cookies to simulate an authenticated session.
 
 ## 📸 Screenshots
