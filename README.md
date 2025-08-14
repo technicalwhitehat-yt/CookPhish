@@ -65,6 +65,12 @@ git clone https://github.com/technicalwhitehat-yt/CookPhish.git
 cd CookPhish
 bash CookPhish
 ```
+## Termux apk
+👉 **If you don’t have Termux, you can click on “Click to Download” here to download Termux’s APK.** The latest version of Termux is v0.118.3.
+[📥 Click to Download Termux.apk](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3+github-debug_universal.apk)
+
+---
+
 ## 💻 Kali Linux / Debian-based Linux
 ```
 sudo apt-get update && upgrade -y
