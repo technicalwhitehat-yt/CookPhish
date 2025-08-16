@@ -124,7 +124,7 @@ If you're testing **CookPhish** on Instagram using a mobile device, you'll need 
 
 1. Install the browser using the link above.
 2. Open the browser and visit the **Chrome Web Store**.
-3. Search and install the **Cookies Editor** extension.
+3. Search and install the [**Cookies Editor**](https://chromewebstore.google.com/detail/cookie-editor/gigiddbkofmmehoipndncpadfopebjfh?utm_source=item-share-whatsapp) extension.
 4. Launch the phishing page hosted by CookPhish (e.g. via `cloudflared` or `tunnelmole`).
 5. Open **Cookies Editor** and find important cookies like:
    - `sessionid`
