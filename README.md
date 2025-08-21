@@ -56,6 +56,14 @@
 ---
 ## 🛠️ Installation
 
+## How to setup cookphish in termux full partical video (Android) 📱
+<p align="center">
+  <a href="https://twhtube.blogspot.com/2025/08/cookphish-termux.html" target="_blank">
+    <img width="100%" src="https://raw.githubusercontent.com/technicalwhitehat-yt/CookPhish/refs/heads/main/cookphish.png" alt="CookPhish Termux Setup"/>
+  </a>
+</p>
+
+
 ## 📱 Termux (Android)
 ```
 pkg update && pkg upgrade -y
@@ -70,6 +78,14 @@ bash CookPhish
 [📥 Click to Download Termux.apk](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3+github-debug_universal.apk)
 
 ---
+## 🛠️ Installation
+
+## How to setup & use cookphish on kali Linux full partical video (Computer) 💻
+<p align="center">
+  <a href="https://twhtube.blogspot.com/2025/08/cookphish-partical-video-for-kali-linux.html" target="_blank">
+    <img width="100%" src="https://raw.githubusercontent.com/technicalwhitehat-yt/CookPhish/refs/heads/main/cookphish%202.png" alt="CookPhish kali linux Setup"/>
+  </a>
+</p>
 
 ## 💻 Kali Linux / Debian-based Linux
 ```
